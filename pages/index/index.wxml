@@ -2,7 +2,7 @@
 <view class="container">
   <view class="page-body">
     <view class="index">
-      <image class="index_logo" mode="aspectFit" src="../../img/FirstAid LOGO.png"></image>
+      <image class="main_logo" mode="aspectFit" src="../../img/FirstAid LOGO.png"></image>
     </view>
   </view>
 </view>
