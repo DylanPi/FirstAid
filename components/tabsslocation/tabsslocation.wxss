@@ -1,0 +1,7 @@
+.container{
+  padding-top:100%;
+}
+.image_{
+  width:50rpx;
+  height:50rpx;
+}
