@@ -1,0 +1,48 @@
+<!--pages/SOS/SOS.wxml-->
+<view class="section00">
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+        <navigator url="/pages/_hujiu/_hujiu">
+          <image class ="hujiu" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rugfilcZEZnTBrWs32*FQq2w1JcjAGXTL5Yeiv8985*O1AnF*quJ6AdGm53DS7SkpJims*TgiMdW1TQ3XvFFgc!/mnull&bo=jgCNAAAAAAADByE!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">呼救</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+        <navigator url="/pages/_nearAED/_nearAED">
+          <image class ="nearAED" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5nyRtnVYomrKAHLcBzODE1vuNPgDo6vdT4sgxrIsZjSOpa58me0j7CQV4lnoFY0qa8XdmUnUmUM2Ct24u.DoWnQ!/mnull&bo=mQQ4BAAAAAADB4M!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">附近的AED</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section10">
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <navigator url="/pages/_guidance/_guidance">
+          <image class ="guidance" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5q3gD7**ZgeLQ1htiXSKG.Li0xfz*gGMT74fnlK2cW8l7Q1Zezz06uuX8PxLYpRgDFKp0yrD1dYJYEhRX.bt4QA!/mnull&bo=pwCnAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">急救指南</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <navigator url="/pages/_card/_card">
+          <image class ="card" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5iD6qCWd*cM0ted0M5gwhJxSPbwzhHl*II3.ACk8Ly11tJorPZ4sQih8Tudr9JKpZlbDCXcJe3oyOFHr9UPrf3s!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">医疗急救卡</view>
+      </view>
+    </view>
+  </view>
+</view>
