@@ -1,0 +1,15 @@
+/* pages/main/main.wxss */
+.image1{
+  box-sizing: border-box;
+  margin-top: 25%;
+  margin-left: 36%;
+  width: 300rpx;
+  height: 240rpx;
+}
+.image2{
+  box-sizing: border-box;
+  margin-top: 20%;
+  margin-left: 28%;
+  width: 330rpx;
+  height:260rpx;
+}
