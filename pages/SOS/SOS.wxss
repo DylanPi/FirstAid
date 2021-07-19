@@ -1,0 +1,60 @@
+/* pages/SOS/SOS.wxss */
+.section00{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section10{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section11{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pictext{
+  width: 235rpx;
+  height: 250rpx;
+}
+
+.text{
+  text-align: center;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+}
+
+.twomtwo{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.hujiu{ 
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.nearAED{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.guidance{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.card{
+  width: 235rpx;
+  height: 235rpx;
+}
