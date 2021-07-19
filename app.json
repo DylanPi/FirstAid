@@ -1,12 +1,27 @@
 {
   "pages":[
+    "pages/main/main",
+    "pages/study/study",
+    "pages/SOS/SOS",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/_hujiu/_hujiu",
+    "pages/_nearAED/_nearAED",
+    "pages/_guidance/_guidance",
+    "pages/_card/_card",
+    "pages/_qiandao/_qiandao",
+    "pages/_qanda/_qanda",
+    "pages/_video/_video",
+    "pages/_operation/_operation",
+    "pages/_lecture/_lecture",
+    "pages/_volunteer/_volunteer",
+    "pages/_certificate/_certificate",
+    "pages/_forum/_forum"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "急救 First Aid",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

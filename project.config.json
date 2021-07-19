@@ -34,8 +34,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.18.0",
-  "appid": "wx871e7c335fd7f42d",
-  "projectname": "FirstAid",
+  "appid": "wxfe759a7038d86daf",
+  "projectname": "miniprogram-4",
   "debugOptions": {
     "hidedInDevtools": []
   },
