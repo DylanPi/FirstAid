@@ -16,16 +16,13 @@
     "pages/_lecture/_lecture",
     "pages/_volunteer/_volunteer",
     "pages/_certificate/_certificate",
-    "pages/_forum/_forum"
+    "pages/_forum/_forum",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-<<<<<<< HEAD
     "navigationBarTitleText": "急救 First Aid",
-=======
-    "navigationBarTitleText": "FirstAid",
->>>>>>> 9d380e87b077e97d32b4d6ca3244e93bfa3e03e7
     "navigationBarTextStyle":"black"
   },
   "plugins": {
