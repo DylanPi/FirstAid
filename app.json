@@ -1,14 +1,18 @@
 {
   "pages":[
+    "pages/index/index", 
+    "pages/login/login",
+    "pages/register/register",
+    
     "pages/main/main",
-    "pages/study/study",
+    
     "pages/SOS/SOS",
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/_hujiu/_hujiu",
     "pages/_nearAED/_nearAED",
     "pages/_guidance/_guidance",
     "pages/_card/_card",
+
+    "pages/study/study",
     "pages/_qiandao/_qiandao",
     "pages/_qanda/_qanda",
     "pages/_video/_video",
@@ -17,7 +21,8 @@
     "pages/_volunteer/_volunteer",
     "pages/_certificate/_certificate",
     "pages/_forum/_forum",
-    "pages/login/login"
+
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="page-body">
-    <view class="index">
+    <view class="index" bindtap="bindViewTap">
       <image class="main_logo" mode="aspectFit" src="../../img/FirstAid LOGO.png"></image>
     </view>
   </view>
