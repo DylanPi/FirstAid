@@ -5,13 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    completeRegist:false,
+    com_reg:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    if (this.data.completeRegist){
+      this.setData(
+        this.data.com_reg="已完成注册，请登录!"
+      )
+    }
 
   },
 

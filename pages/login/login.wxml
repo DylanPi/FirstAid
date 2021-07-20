@@ -6,7 +6,7 @@
     </image>
   </view>
   <view class="loginbox">
-    <view class="register_complete">已完成注册，请登录!</view>
+    <view class="register_complete" ><rich-text nodes="{{com_reg}}"></rich-text></view>
     <form action="">
       <view class="login_form">
         <view class="login_form_cell">
@@ -22,7 +22,7 @@
             <view class="but_text">登录 </view>
           </button>
         </view>
-        <view class="loginToRegistP">还没有账号?<navigator class="loginToRegistA">立即注册</navigator>
+        <view class="loginToRegistP">还没有账号?<navigator class="loginToRegistA" url="/pages/register/register">立即注册</navigator>
         </view>
         <view>
           <view class="divLineL"></view>
