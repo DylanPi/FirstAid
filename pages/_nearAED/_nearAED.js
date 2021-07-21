@@ -26,7 +26,7 @@ Page({
       longitude:120.08522197986605,
       title:"西1A教学楼309教室门口",
       width: 20,  //图片显示宽度
-      height: 20  //图片显示高度
+      height: 25  //图片显示高度
     },
       //东1B123教师附近
       {
@@ -36,7 +36,7 @@ Page({
         longitude: 120.08945182348253,
         title:"东1B123教师附近",
         width: 20,
-        height: 20
+        height: 25
       },
     ]
   },
