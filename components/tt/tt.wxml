@@ -13,14 +13,14 @@
   <view>
     <view class="divLine"></view>
   </view>
-<view class="space"></view>
+  <view class="space"></view>
   <view class="tt_cell">
     <navigator url="#">
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6Xlmj9rIIZd8WAsmXBXmQQdoiwlz.5zeYp80DCoYQT5mEZMp4Tdel4mOuF5gNWI1Ayf*4!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
+      <view class="text_">疫情防控</view>
     </navigator>
-    <view class="text_">疫情防控</view>
   </view>
 
   <view class="tt_cell">
@@ -28,16 +28,18 @@
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXHcQaFTpIs3*ASrLDSY6GgsjwRTPZ.WBrIOlqyBgQZ10AGpf1zUcWu3eGRO1ai*4FqeFQ*TlSWBWnlktdpAMPI!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
+      <view class="text_">急救证</view>
     </navigator>
-    <view class="text_">急救证</view>
+
   </view>
   <view class="tt_cell">
     <navigator url="../../pages/score/score">
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXHcQaFTpIs3*ASrLDSY6GgdnluDKbSqrbIzAvF5fIlAIvJxZqyyHWstpVUgiNLvwXQ*BmbD2lVFgDgghTLgWUQ!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
+      <view class="text_">积分</view>
     </navigator>
-    <view class="text_">积分</view>
+
   </view>
 
   <view class="tt_cell">
@@ -45,8 +47,8 @@
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2RiWtILEKhFJNOGG28jeSyYv9fWN80LSOSsSNR6s1qtcxCUW2UVkFW*LxvxvXLO3gUw!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
+      <view class="text_">设置</view>
     </navigator>
-    <view class="text_">设置</view>
   </view>
 
   <view class="tt_cell">
@@ -54,8 +56,8 @@
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6XlmhhJ9ewvti6uKdSL2ZiVPOXXVc*MoxNNSAfy8owyTfc6Z.BuiPiFkpjw9MkqoXd2NU!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
+      <view class="text_">免责声明</view>
     </navigator>
-    <view class="text_">免责声明</view>
   </view>
 
   <view class="tt_cell">
