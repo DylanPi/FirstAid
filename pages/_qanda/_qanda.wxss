@@ -1,1 +1,62 @@
 /* pages/_qanda/_qanda.wxss */
+.section00{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section10{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section11{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pictext{
+  width: 235rpx;
+  height: 250rpx;
+}
+
+.pictext1{
+  margin-top: 15%;
+  margin-left: 12%;
+  width: 235rpx;
+  height: 250rpx;
+}
+
+.text{
+  text-align: center;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+}
+
+.twomtwo{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.panduan{ 
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.xuanze{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.tiankong{
+  width: 235rpx;
+  height: 235rpx;
+}

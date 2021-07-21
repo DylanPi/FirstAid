@@ -1,2 +1,34 @@
-<!--pages/_qanda/_qanda.wxml-->
-<text>pages/_qanda/_qanda.wxml</text>
+<!--pages/_qanda/_qanda.wxml
+  急救学习下的急救答题页面-->
+<view class="section00">
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+        <navigator url="/pages/__panduan/__panduan">
+          <image class ="panduan" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNFnFU1TEjZnruJ61Hnm4Gm.6n1DgNVaHAKJPxcMbLARB9LMjZCc3qjfuNs1l6lV.cE!/mnull&bo=lwCWAAAAAAADByM!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">判断题</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+        <navigator url="/pages/__xuanze/__xuanze">
+          <image class ="xuanze" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oikLbCTfaK9qCnAO12qUQJxuzRn0.smLTWOqESn6.9qqExO37bjLihshjrKSRH6Dkz*t9p24xgB7LdhmciLF8U!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">选择题</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section01">
+  <view class="pictext1">
+    <navigator url="/pages/__tiankong/__tiankong">
+      <image class ="tiankong" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oikLbCTfaK9qCnAO12qUQKAk1HUEDCI00bNYO7HeXcZ4IEqXUJ9dPUT0k5tIU7rklpFYG15B6xgFgkQSmpkgGo!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+    </navigator>
+    <view class="text">填空题</view>
+  </view>
+</view>

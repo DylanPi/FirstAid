@@ -1,6 +1,17 @@
 {
   "pages":[
+    "pages/SOS/SOS",  
+    "pages/_hujiu/_hujiu",
+    "pages/__yijianhujiu/__yijianhujiu",
+    "pages/__yijian120/__yijian120",
     "pages/main/main",
+<<<<<<< HEAD
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/study/study",
+    "pages/_qanda/_qanda",
+=======
     "pages/index/index", 
     "pages/login/login",
     "pages/register/register",
@@ -8,19 +19,24 @@
     
     "pages/SOS/SOS",
     "pages/_hujiu/_hujiu",
+>>>>>>> a14f7944030f3f8ea97af425d7e49ea0ef2be7c8
     "pages/_nearAED/_nearAED",
     "pages/_guidance/_guidance",
     "pages/_card/_card",
 
     "pages/study/study",
     "pages/_qiandao/_qiandao",
-    "pages/_qanda/_qanda",
     "pages/_video/_video",
     "pages/_operation/_operation",
     "pages/_lecture/_lecture",
     "pages/_volunteer/_volunteer",
     "pages/_certificate/_certificate",
     "pages/_forum/_forum",
+<<<<<<< HEAD
+    "pages/__panduan/__panduan",
+    "pages/__xuanze/__xuanze",
+    "pages/__tiankong/__tiankong"
+=======
 
     "pages/_yiqing/_yiqing",
     "pages/_statement/_statement",
@@ -29,11 +45,16 @@
     "pages/_score/_score",
 
     "pages/logs/logs"
+>>>>>>> a14f7944030f3f8ea97af425d7e49ea0ef2be7c8
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
+<<<<<<< HEAD
+    "navigationBarTitleText": "FirstAid",
+=======
     "navigationBarTitleText": "急救 First Aid",
+>>>>>>> a14f7944030f3f8ea97af425d7e49ea0ef2be7c8
     "navigationBarTextStyle":"black"
   },
   "plugins": {
