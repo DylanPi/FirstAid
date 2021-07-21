@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tt":"../../components/tt/tt",
+    "tabsslocation":"../../components/tabsslocation/tabsslocation"
+  }
 }

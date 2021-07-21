@@ -1,6 +1,6 @@
 <!--components/tabsslocation/tabsslocation.wxml-->
 
-<view >
+<view class="container_" >
   
   <button bindtap="showMap">获取位置</button>
   <view style="margin-top:10px">

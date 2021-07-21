@@ -1,10 +1,10 @@
 {
   "pages":[
+    "pages/main/main",
     "pages/index/index", 
     "pages/login/login",
     "pages/register/register",
     
-    "pages/main/main",
     
     "pages/SOS/SOS",
     "pages/_hujiu/_hujiu",
@@ -21,6 +21,12 @@
     "pages/_volunteer/_volunteer",
     "pages/_certificate/_certificate",
     "pages/_forum/_forum",
+
+    "pages/_yiqing/_yiqing",
+    "pages/_statement/_statement",
+    "pages/_setting/_setting",
+    "pages/_mine/_mine",
+    "pages/_score/_score",
 
     "pages/logs/logs"
   ],
