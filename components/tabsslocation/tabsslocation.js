@@ -31,9 +31,9 @@ Component({
   showMap() {
       //使用在腾讯位置服务申请的key（必填）
     
-      const key = "6QQBZ-HPZKR-GQCWV-WASKG-ZSJG5-6UBUG"; 
+      const key = "TMRBZ-5FQ3J-KHYFX-FK7U4-3YI77-ADB7J"; 
       //调用插件的app的名称（必填）
-      const referer = "First Aid_"; 
+      const referer = "First Aid__"; 
       wx.navigateTo({
           url: 'plugin://chooseLocation/index?key=' + key + '&referer=' + referer
       });  

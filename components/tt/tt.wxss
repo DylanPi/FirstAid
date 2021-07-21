@@ -1,6 +1,5 @@
 /* compoments/tt/tt.wxss */
 
-
 .btn {
   position: absolute;
   width: 68rpx;
@@ -21,18 +20,19 @@
 
 }
 .image_{
-  margin: 0 115rpx;
-  width: 70rpx;
-  height: 70rpx;
+  margin: 20rpx 50rpx 0rpx 50rpx;
+  width: 50rpx;
+  height: 50rpx;
 }
-
 .image__{
-  margin: 0 70rpx;
-  width: 55%;
-  height: 160rpx;
+  margin: 20rpx 50rpx 0rpx 50rpx;
+  width: 150rpx;
+  height: 150rpx;
 }
 .text_{
-  text-align: center;
+ 
+  margin-top: 0px; 
+  margin-left: 0rpx;
   font-size:smaller;
 }
 .button_{
@@ -45,20 +45,4 @@
 }
 .button_::after{
 border: none;
-}
-
-.tt_cell{
- margin-bottom: 30rpx;
-}
-
-.divLine {
-  float: left;
-  background: #b9b9b9;
-  width: 100%;
-  height: 5rpx;
-  margin-top: 15rpx;
-}
-
-.space{
-  height: 5%;
 }
