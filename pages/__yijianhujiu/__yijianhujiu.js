@@ -1,6 +1,4 @@
-// pages/SOS/SOS.js
-const app = getApp()
-
+// pages/__yijianhujiu/__yijianhujiu.js
 Page({
 
   /**
@@ -9,6 +7,7 @@ Page({
   data: {
 
   },
+  
 
   /**
    * 生命周期函数--监听页面加载
@@ -21,23 +20,14 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    this.popup = this.selectComponent("#popup")
-  },
 
-  showPopup(){
-    this.popup.showPopup();
-  },
-
-  _success(){
-    console.log("你点了确定");
-    this.popup.hidePopup();
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**

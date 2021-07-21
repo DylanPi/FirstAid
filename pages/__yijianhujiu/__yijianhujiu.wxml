@@ -1,0 +1,10 @@
+<!--pages/__yijianhujiu/__yijianhujiu.wxml-->
+<view class="text1">提示：</view>
+<view class="text2">正在向您周围的人呼救，请耐心等待救援！</view>
+<view animation="{{animationData}}" style="background:	#FF7F50;height:100rpx;width:100rpx;border-radius:50%"></view>
+<view class="text3">若您需要拨打120急救电话，请按下下方的“一键120”按钮寻求帮助。您还可以返回到小程序的急救页面找到“急救指南”和“附近的AED”辅助现场急救。</view>
+<button style="width:250rpx"
+        class="button1"
+        disabled="{{disabled}}">
+        <view class="text4">一键120</view>
+</button>

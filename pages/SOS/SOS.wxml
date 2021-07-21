@@ -3,9 +3,17 @@
   <view class="twomtwo">
     <view class="section01">
       <view class="pictext">
-        <navigator url="/pages/_hujiu/_hujiu">
-          <image class ="hujiu" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rugfilcZEZnTBrWs32*FQq2w1JcjAGXTL5Yeiv8985*O1AnF*quJ6AdGm53DS7SkpJims*TgiMdW1TQ3XvFFgc!/mnull&bo=jgCNAAAAAAADByE!&rf=photolist&t=5" mode="aspectFit"/>
-        </navigator>
+        <view class="container">
+          <view class="userinfo">
+            <image class ="hujiu" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rugfilcZEZnTBrWs32*FQq2w1JcjAGXTL5Yeiv8985*O1AnF*quJ6AdGm53DS7SkpJims*TgiMdW1TQ3XvFFgc!/mnull&bo=jgCNAAAAAAADByE!&rf=photolist&t=5" bindtap="showPopup" mode="aspectFit"/>
+          </view>
+          <popup id="popup"
+            title="《发起求救法律条文》"
+            content="本小程序旨在帮助大家在发生紧急急救情况下，提供附近的AED参考位置，帮助拨打120以及向周围的人发出急救信息。但本公司不承担因为使用本小程序的任何原因所导致的急救延误、失败、无效等直接或间接后果，包括并不限于延误急救时间，造成生命、财产损失等责任。"
+            btn_ok="我已阅读并同意"
+            bind:success="_success">
+          </popup>
+        </view>
         <view class="text">呼救</view>
       </view>
     </view>
@@ -46,3 +54,4 @@
     </view>
   </view>
 </view>
+

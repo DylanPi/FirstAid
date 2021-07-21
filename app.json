@@ -1,31 +1,33 @@
 {
   "pages":[
-    "pages/main/main",
-    "pages/study/study",
-    "pages/SOS/SOS",
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/SOS/SOS",  
     "pages/_hujiu/_hujiu",
+    "pages/__yijianhujiu/__yijianhujiu",
+    "pages/__yijian120/__yijian120",
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/study/study",
+    "pages/_qanda/_qanda",
     "pages/_nearAED/_nearAED",
     "pages/_guidance/_guidance",
     "pages/_card/_card",
     "pages/_qiandao/_qiandao",
-    "pages/_qanda/_qanda",
     "pages/_video/_video",
     "pages/_operation/_operation",
     "pages/_lecture/_lecture",
     "pages/_volunteer/_volunteer",
     "pages/_certificate/_certificate",
-    "pages/_forum/_forum"
+    "pages/_forum/_forum",
+    "pages/__panduan/__panduan",
+    "pages/__xuanze/__xuanze",
+    "pages/__tiankong/__tiankong"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-<<<<<<< HEAD
-    "navigationBarTitleText": "急救 First Aid",
-=======
     "navigationBarTitleText": "FirstAid",
->>>>>>> 9d380e87b077e97d32b4d6ca3244e93bfa3e03e7
     "navigationBarTextStyle":"black"
   },
   "plugins": {
