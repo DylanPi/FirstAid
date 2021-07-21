@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "popup":"/components/popup/popup"
+<<<<<<< HEAD
+    in"tt":"../../components/tt/tt",
+    "tabsslocation":"../../components/tabsslocation/tabsslocation"
+>>>>>>> a14f7944030f3f8ea97af425d7e49ea0ef2be7c8
   },
   "navigationBarTitleText": "急救"
 }

@@ -22,7 +22,7 @@
   <view class="twomtwo">
     <view class="section01">
       <view class="pictext">
-        <navigator url="/pages/_nearAED/_nearAED">
+        <navigator url="/pages/_nearAED/_nearAED" open-type="navigate">
           <image class ="nearAED" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5nyRtnVYomrKAHLcBzODE1vuNPgDo6vdT4sgxrIsZjSOpa58me0j7CQV4lnoFY0qa8XdmUnUmUM2Ct24u.DoWnQ!/mnull&bo=mQQ4BAAAAAADB4M!&rf=photolist&t=5" mode="aspectFit"/>
         </navigator>
         <view class="text">附近的AED</view>
@@ -54,4 +54,5 @@
     </view>
   </view>
 </view>
+<<<<<<< HEAD
 
