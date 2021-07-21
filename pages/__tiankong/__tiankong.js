@@ -1,6 +1,4 @@
-// pages/SOS/SOS.js
-const app = getApp()
-
+// pages/__tiankong/__tiankong.js
 Page({
 
   /**
@@ -21,16 +19,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    this.popup = this.selectComponent("#popup")
-  },
 
-  showPopup(){
-    this.popup.showPopup();
-  },
-
-  _success(){
-    console.log("你点了确定");
-    this.popup.hidePopup();
   },
 
   /**

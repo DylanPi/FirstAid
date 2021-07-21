@@ -1,2 +1,21 @@
 <!--pages/_hujiu/_hujiu.wxml-->
-<text>pages/_hujiu/_hujiu.wxml</text>
+
+<view class="onemone">
+  <image class="SOS" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5vpkQegb7Cd2HO6.STNqeco0CN8YUZp2s2Lu3Cy6wZASpD3.13b3pbGMdvHNDtehXg9EBAg7M7YBOhIEbGe3fUw!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFill"></image>
+</view>
+<view class="text1">紧急情况是否发起呼救？</view>
+<view class="text2">紧急救援，切勿谎报，请慎重发起呼救！</view>
+
+<view class="section00">
+  <button style="width:250rpx"
+        class="button1"
+        disabled="{{disabled}}">
+        <view class="text3">一键呼救</view>
+  </button>
+
+  <button style="width:250rpx"
+        class="button2"
+        disabled="{{disabled}}">
+        <view class="text3">一键120</view>
+  </button>
+</view>
