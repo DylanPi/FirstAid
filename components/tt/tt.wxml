@@ -14,6 +14,16 @@
     <view class="divLine"></view>
   </view>
   <view class="space"></view>
+
+  <view class="tt_cell">
+    <navigator url="#">
+      <image class="image_"
+        src="/img/info.png">
+      </image>
+      <view class="text_">个人中心</view>
+    </navigator>
+  </view>
+
   <view class="tt_cell">
     <navigator url="#">
       <image class="image_"
@@ -32,15 +42,6 @@
     </navigator>
 
   </view>
-  <view class="tt_cell">
-    <navigator url="../../pages/score/score">
-      <image class="image_"
-        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXHcQaFTpIs3*ASrLDSY6GgdnluDKbSqrbIzAvF5fIlAIvJxZqyyHWstpVUgiNLvwXQ*BmbD2lVFgDgghTLgWUQ!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
-      </image>
-      <view class="text_">积分</view>
-    </navigator>
-
-  </view>
 
   <view class="tt_cell">
     <navigator url="../../pages/setting/setting">
@@ -56,7 +57,7 @@
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6XlmhhJ9ewvti6uKdSL2ZiVPOXXVc*MoxNNSAfy8owyTfc6Z.BuiPiFkpjw9MkqoXd2NU!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
-      <view class="text_">免责声明</view>
+      <view class="text_">关于小程序</view>
     </navigator>
   </view>
 
@@ -68,4 +69,15 @@
     </button>
     <view class="text_">分享</view>
   </view>
+
+  <view class="tt_cell">
+    <button open-type="share" class="button_out" >
+      <!-- <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2Rh2pdb35uzpZxjg8pbB6tRVUestD171e*qXEnif6FN84wSuzFTAR9I1CYFBXf5MhHA!/b&bo=0QDIAAAAAAADFys!&rf=viewer_4">
+      </image> -->
+      退出登录
+    </button>
+    
+  </view>
+
 </page-container>

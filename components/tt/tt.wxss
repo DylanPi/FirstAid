@@ -62,3 +62,8 @@ border: none;
 .space{
   height: 5%;
 }
+
+.button_out{
+  float: right;
+  padding-left: 42%;
+}
