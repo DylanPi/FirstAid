@@ -10,8 +10,8 @@ Page({
   data: {
     completeRegist: false,
     com_reg: "",
-    username: '',
-    password: ''
+    username: "",
+    password: ""
   },
 
   /**
@@ -51,14 +51,20 @@ Page({
       //   url: '../message/message?message=' + "hello world!",
       // });
       wx.showToast({
-        title: '登录成功',
-        icon: 'success',
-      })
+          title: '登录成功',
+          icon: 'success',
+        }),
+        setTimeout(function () {
+          wx.navigateTo({
+            url: '../main/main',
+          })
+        }, 1000)
+
       // 登录成功，跳转到message页面
     }, function (error) {
       wx.redirectTo({
-          url: '../login/login',
-        });
+        url: '../login/login',
+      });
       wx.showToast({
         title: '检查账号和密码',
         icon: 'error',
@@ -66,6 +72,29 @@ Page({
       alert(JSON.stringify(error));
     });
   },
+
+  /**
+   * 使用微信账号登录
+   */
+  // wxlogin(e){
+  //   wx.login({
+  //     success (res) {
+  //       // if (res.code) {
+  //       //   //发起网络请求
+  //       //   wx.request({
+  //       //     url: '#',
+  //       //     data: {
+  //       //       code: res.code
+  //       //     }
+  //       //   })
+  //       // } else {
+  //         console.log(res)
+  //       }
+  //   })
+  // },
+  // getUserInfo:function(e){
+  //   console.log(e)
+  // },
   /**
    * 生命周期函数--监听页面加载
    */

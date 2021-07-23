@@ -17,7 +17,8 @@ Component({
     round: false,
     overlay: true,
     customStyle: '',
-    overlayStyle: ''
+    overlayStyle: '',
+    userName:'李鹏海'
   },
 
   /**

@@ -4,11 +4,11 @@
 </image>
 <page-container show="{{show}}" overlay="true" duration="300" position="right" z-index="9999"
   customStyle="width:40%;margin-left:60%" close-on-slide-down="true" bindenter="onEnter">
-  <navigator url="../../pages/logs/logs" class="img_box">
+  <navigator url="../../pages/basicInfo/basicInfo" class="img_box">
     <image class="image__"
       src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6Xlmi1QztaSblMvh1BugNdrvD.LeOPhPtCdeUxHjDKrwc6DKz29*70hZq0BhLye8yMoKw!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
     </image>
-    <view class="text_">用户名</view>
+    <view class="text_">{{userName}}</view>
   </navigator>
   <view>
     <view class="divLine"></view>
@@ -16,7 +16,7 @@
   <view class="space"></view>
 
   <view class="tt_cell">
-    <navigator url="#">
+    <navigator url="../../pages/IDinfor/IDinfor">
       <image class="image_"
         src="/img/info.png">
       </image>
@@ -71,7 +71,7 @@
   </view>
 
   <view class="tt_cell">
-    <button open-type="share" class="button_out" >
+    <button>
       <!-- <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2Rh2pdb35uzpZxjg8pbB6tRVUestD171e*qXEnif6FN84wSuzFTAR9I1CYFBXf5MhHA!/b&bo=0QDIAAAAAAADFys!&rf=viewer_4">
       </image> -->
