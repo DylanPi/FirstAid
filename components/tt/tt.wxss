@@ -60,7 +60,7 @@ border: none;
 }
 
 .space{
-  height: 5%;
+  height: 3%;
 }
 
 .button_out{

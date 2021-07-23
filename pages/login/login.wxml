@@ -2,7 +2,7 @@
 <view class="container">
   <view class="login_space"></view>
   <view>
-    <image src="../../img/FirstAid LOGO.png" mode="aspectFit" class="main_logo">
+    <image src="../../img/FirstAidLogo.png" mode="aspectFit" class="main_logo">
     </image>
   </view>
   <view class="loginbox">
@@ -31,7 +31,7 @@
           <view class="divLineR"></view>
         </view>
         <view class="button-sp-area">
-          <button class="but-login wxlogin" hover-class="button-hover">
+          <button class="but-login wxlogin" hover-class="button-hover" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
             <view class="but_text">使用微信账号登录 </view>
           </button>
         </view>
