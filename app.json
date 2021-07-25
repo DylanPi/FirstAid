@@ -17,6 +17,7 @@
 
     "pages/_nearAED/_nearAED",
     "pages/_guidance/_guidance",
+    "pages/_guidanceTo/_guidanceTo",
     "pages/_card/_card",
 
     "pages/study/study",
@@ -30,7 +31,8 @@
 
     "pages/__panduan/__panduan",
     "pages/__xuanze/__xuanze",
-    "pages/__tiankong/__tiankong"
+    "pages/__tiankong/__tiankong",
+    "pages/aidManCard/aidManCard"
   ],
   "window":{
     "backgroundTextStyle":"light",

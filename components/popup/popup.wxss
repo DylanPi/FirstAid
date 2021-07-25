@@ -23,14 +23,13 @@
 }
 .wx-popup-title {
   width: 100%;
-  padding: 20rpx;
+  padding: 20rpx 0;
   text-align: center;
   font-size: 40rpx;
   border-bottom: 2rpx solid red;
 }
 .wx-popup-con {
-  margin: 60rpx 10rpx;
-  text-align: center;
+  margin: 60rpx 20rpx;
 }
 .wx-popup-btn {
   display: flex;
@@ -46,7 +45,15 @@
   border: 2rpx solid #ccc;
   border-radius: 88rpx;
 }
+
 .btn-ok{
   font-weight: bold;
   padding-bottom: 15%;
+  background-color: rgba(212, 32, 32, 0.459);
+}
+
+.btn-nok{
+  font-weight: bold;
+  padding-bottom: 15%;
+  background-color: rgba(123, 255, 174, 0.301);
 }

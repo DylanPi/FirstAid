@@ -1,60 +1,55 @@
 /* pages/SOS/SOS.wxss */
-.section00{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 15%;
-}
-.section01{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.section00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15%;
 }
 
-.section10{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 15%;
-}
-.section11{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.section01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.pictext{
-  width: 235rpx;
-  height: 250rpx;
+.section10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
 }
 
-.text{
-  text-align: center;
-  font-size: 30rpx;
-  letter-spacing: 2rpx;
+.section11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.twomtwo{
-  width: 235rpx;
-  height: 235rpx;
+.pictext {
+    width: 200rpx;
+    height: 225rpx;
 }
 
-.hujiu{ 
-  width: 235rpx;
-  height: 235rpx;
+.text {
+    text-align: center;
+    font-size: 30rpx;
+    letter-spacing: 2rpx;
 }
 
-.nearAED{
-  width: 235rpx;
-  height: 235rpx;
+.twomtwo {
+    width: 200rpx;
+    height: 200rpx;
 }
 
-.guidance{
-  width: 235rpx;
-  height: 235rpx;
+.pic {
+    width: 200rpx;
+    height: 200rpx;
 }
 
-.card{
-  width: 235rpx;
-  height: 235rpx;
+.pictext1 {
+    width: 210rpx;
+    height: 235rpx;
+    margin-top: 13%;
+    margin-left: 16%;
 }

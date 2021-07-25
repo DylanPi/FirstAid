@@ -63,12 +63,6 @@ Page({
         imgsrc: "../../img/favo.png",
         url: "#"
       },
-      {
-        id: 6,
-        name: "设置",
-        imgsrc: "../../img/setting.png",
-        url: "#"
-      },
     ],
   },
 

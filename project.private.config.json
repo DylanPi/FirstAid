@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/login/login",
-          "pathName": "pages/login/login",
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
           "query": "",
           "scene": null
         }
