@@ -58,7 +58,7 @@ Page({
           wx.navigateTo({
             url: '../main/main',
           })
-        }, 1000)
+        }, 500)
 
       // 登录成功，跳转到message页面
     }, function (error) {

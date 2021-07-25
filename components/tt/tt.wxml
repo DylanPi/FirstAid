@@ -34,7 +34,7 @@
   </view>
 
   <view class="tt_cell">
-    <navigator url="../../pages/certificate/certificate">
+    <navigator url="../../pages/aidManCard/aidManCard">
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXHcQaFTpIs3*ASrLDSY6GgsjwRTPZ.WBrIOlqyBgQZ10AGpf1zUcWu3eGRO1ai*4FqeFQ*TlSWBWnlktdpAMPI!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
@@ -43,14 +43,14 @@
 
   </view>
 
-  <view class="tt_cell">
+  <!-- <view class="tt_cell">
     <navigator url="../../pages/setting/setting">
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2RiWtILEKhFJNOGG28jeSyYv9fWN80LSOSsSNR6s1qtcxCUW2UVkFW*LxvxvXLO3gUw!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>
       <view class="text_">设置</view>
     </navigator>
-  </view>
+  </view> -->
 
   <view class="tt_cell">
     <navigator url="../../pages/statement/statement">

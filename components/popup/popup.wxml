@@ -5,10 +5,16 @@
     <view class="wx-popup-con">{{content}}</view>
     <view class="wx-popup-btn">
       <navigator url="/pages/_hujiu/_hujiu">
-      <text class="btn-ok" bindtap="_success">
-        {{btn_ok}}
-      </text>
+        <text class="btn-ok" bindtap="_success">
+          {{btn_ok}}
+        </text>
       </navigator>
+      <view>
+        <text class="btn-nok" bindtap="_cancel">
+          {{btn_cancel}}
+        </text>
+      </view>
+
     </view>
   </view>
 </view>

@@ -6,7 +6,6 @@ Component({
   /**
    * 组件的属性列表
    */
-
   properties: {
     title:{
       type: String,
@@ -19,6 +18,10 @@ Component({
     btn_ok:{
       type: String,
       value:"确定"
+    },
+    btn_cancel:{
+      type: String,
+      value:"取消"
     }
   },
 
@@ -45,6 +48,9 @@ Component({
     },
     _success(){
       this.triggerEvent("success");
-    }
+    },
+    _cancel(){
+      this.triggerEvent("cancel");
+    },
   }
 })

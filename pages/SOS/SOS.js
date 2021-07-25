@@ -28,8 +28,10 @@ Page({
     this.popup.showPopup();
   },
 
-  _success(){
-    console.log("你点了确定");
+  success(){
+    this.popup.hidePopup();
+  },
+  cancel(){
     this.popup.hidePopup();
   },
 

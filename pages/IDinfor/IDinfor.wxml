@@ -27,7 +27,7 @@
   <view class="divLine"></view>
 
   <view class="FAcard">
-    <navigator>
+    <navigator url="../aidManCard/aidManCard">
       <image class="FAcard_img" src="../../img/FAcardhead.png" mode="aspectFit">急救员证详情</image>
     </navigator>
   </view>
