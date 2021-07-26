@@ -93,4 +93,4 @@
   </view>
 </view>
 <tabsslocation></tabsslocation>
-  <tt></tt>
+<tt avatar="{{avatar}}"></tt>

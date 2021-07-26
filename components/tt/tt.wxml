@@ -69,15 +69,4 @@
     </button>
     <view class="text_">分享</view>
   </view>
-
-  <view class="tt_cell">
-    <button>
-      <!-- <image class="image_"
-        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2Rh2pdb35uzpZxjg8pbB6tRVUestD171e*qXEnif6FN84wSuzFTAR9I1CYFBXf5MhHA!/b&bo=0QDIAAAAAAADFys!&rf=viewer_4">
-      </image> -->
-      退出登录
-    </button>
-    
-  </view>
-
 </page-container>

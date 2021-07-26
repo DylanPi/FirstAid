@@ -33,7 +33,7 @@
     "pages/__xuanze/__xuanze",
     "pages/__tiankong/__tiankong",
     "pages/aidManCard/aidManCard",
-    "pages/register/register"
+    "pages/bindCard/bindCard"
   ],
   "window":{
     "backgroundTextStyle":"light",

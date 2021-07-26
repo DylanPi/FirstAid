@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "popup":"../../components/popup/popup"
+  },
   
   "backgroundTextStyle":"light",
   "navigationBarBackgroundColor": "#FFFFFF",

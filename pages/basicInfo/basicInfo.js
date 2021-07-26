@@ -1,4 +1,5 @@
 // pages/basicInfo/basicInfo.js
+const app=getApp()
 Page({
 
   /**
@@ -99,7 +100,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(app.globalData.user)
+    this.setData({
+      'isReal.status':app.globalData.user.attributes.isRealman,
+      'basicInfoList[0].value' : app.globalData.user.attributes.avatarUrl,
+      'basicInfoList[1].value' : app.globalData.user.attributes.username,
+      'basicInfoList[2].value' : app.globalData.user.attributes.nickName,
+      'basicInfoList[5].value' : app.globalData.user.attributes.province+app.globalData.user.attributes.city,
+    })
   },
 
   /**

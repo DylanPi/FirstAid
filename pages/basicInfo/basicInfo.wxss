@@ -28,6 +28,7 @@
   display: inline-block;
   width: 100rpx;
   height: 100rpx;
+  border-radius: 100rpx;
 
 }
 

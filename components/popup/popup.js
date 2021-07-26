@@ -22,6 +22,10 @@ Component({
     btn_cancel:{
       type: String,
       value:"取消"
+    },
+    btn_ok_url:{
+      type:String,
+      value:""
     }
   },
 

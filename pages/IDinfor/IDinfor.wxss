@@ -13,6 +13,7 @@
 .info_img {
   height: 150rpx;
   width: 150rpx;
+  border-radius: 200rpx;
 }
 
 .info_head {

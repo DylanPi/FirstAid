@@ -10,6 +10,8 @@
 <view class="text5">若您需要向附近的人呼救，请按下下方的“一键呼救”按钮寻求帮助。您还可以返回到小程序的急救页面找到“急救指南”和“附近的AED”辅助现场急救。</view>
 <button style="width:250rpx"
         class="button1"
-        disabled="{{disabled}}">
+        disabled="{{disabled}}"
+        bindtap="Tel"
+        data-tel="{{tel}}">
         <view class="text3">一键120</view>
 </button>

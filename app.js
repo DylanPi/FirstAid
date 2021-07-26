@@ -1,17 +1,18 @@
 // app.js
-// const AV = require('./libs/av-core-min');
-const adapters = require('./libs/leancloud-adapters-weapp.js');
-const AV = require('./libs/av-weapp-min');
+const AV = require('./libs/av-core-min')
+const adapters = require('./libs/leancloud-adapters-weapp.js')
 
-AV.setAdapters(adapters);
+AV.setAdapters(adapters)
 AV.init({
   appId: 'zzuXKNMpzK0r6Ka12gP08fx5-gzGzoHsz',
   appKey: 'cAG7rlcNIYbXkhGvTyIyt0er',
   // 请将 xxx.example.com 替换为你的应用绑定的自定义 API 域名
   serverURLs: "https://zzuxknmp.lc-cn-n1-shared.com",
-});
-
+})
 App({
+
+
+
   onLaunch() {
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
@@ -44,7 +45,16 @@ App({
       }
     })
   },
+  onShow() {
+    AV.User.loginWithMiniApp().then(user => {
+      // console.log('--------------------------------------------------------------')
+      // console.log( user)
+      // console.log('--------------------------------------------------------------')
+      this.globalData.user = user
+    }).catch(console.error)
+  },
   globalData: {
+    loginStatus: false,
     userInfo: null
   }
 })
