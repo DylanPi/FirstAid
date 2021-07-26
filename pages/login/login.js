@@ -1,7 +1,10 @@
 // pages/login/login.js
 
-const app = getApp()
+
 const AV = require('../../libs/av-core-min.js');
+const avweapp = require('../../libs/av-weapp-min');
+const app = getApp();
+wx.cloud.init()
 
 Page({
   /**
@@ -11,7 +14,12 @@ Page({
     completeRegist: false,
     com_reg: "",
     username: "",
-    password: ""
+    password: "",
+    userInfo: {},
+    hasUserInfo: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    canIUseGetUserProfile: false,
+    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 
   },
 
   /**
@@ -73,37 +81,61 @@ Page({
     });
   },
 
-  /**
-   * 使用微信账号登录
-   */
-  // wxlogin(e){
-  //   wx.login({
-  //     success (res) {
-  //       // if (res.code) {
-  //       //   //发起网络请求
-  //       //   wx.request({
-  //       //     url: '#',
-  //       //     data: {
-  //       //       code: res.code
-  //       //     }
-  //       //   })
-  //       // } else {
-  //         console.log(res)
-  //       }
-  //   })
-  // },
-  // getUserInfo:function(e){
-  //   console.log(e)
-  // },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    if (this.data.completeRegist) {
-      this.setData(
-        this.data.com_reg = "已完成注册，请登录!"
-      )
+    if (wx.getUserProfile) {
+      this.setData({
+        canIUseGetUserProfile: true
+      })
     }
+    wx.cloud.callFunction({
+      name: "infoForLogin",
+      data: {
+        a: 1,
+        b: 2,
+      },
+      success: function (res) {
+        console.log("done")
+      },
+      fail: console.error
+    })
+  },
+  /**
+   * 使用微信账号登录
+   */
+  getUserProfile(e) {
+    avweapp.User.loginWithMiniApp().then(user => {
+      this.data.user = user;
+    }).catch(console.error);
+
+    wx.getUserProfile({
+      desc: '展示用户信息', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，
+      success: (res) => {
+        // console.log(res)
+        this.setData({
+          userInfo: res.userInfo,
+          hasUserInfo: true
+        })
+      },
+      complete: (res) => {
+        wx.showToast({
+          title: '登录成功',
+          icon: 'success',
+        })
+      }
+    })
+    const user = avweapp.User.current()
+    user.set(this.data.userInfo).save()
+    // console.log(this.data.userInfo)
+    console.log(user)
+    setTimeout(function (avatarurl = user) {
+      wx.navigateTo({
+        url: '../main/main' + '?avatar=' + avatarurl,
+      })
+    }, 500)
   },
 
   /**
@@ -133,6 +165,4 @@ Page({
   onUnload: function () {
 
   },
-
-
 })

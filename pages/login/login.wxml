@@ -10,12 +10,12 @@
     <form action="">
       <view class="login_form">
         <view class="login_form_cell">
-          <input class="login_input" name="input" type="text" placeholder="账号"
+          <input adjust-position="{{ true }}"  class="login_input" name="input" type="text" placeholder="账号"
             placeholder-style=" text-align: center ;color: #ffffff" bindinput="inputNameLog" />
         </view>
         <!--value="{{password}}"  value="{{username}}"-->
         <view class="login_form_cell">
-          <input class="login_input" password="true" name="input" placeholder="密码"
+          <input type="text" adjust-position="{{ true }}"  class="login_input" password="true" name="input" placeholder="密码"
             placeholder-style=" text-align: center;color: #ffffff" bindinput="inputPwLog" />
         </view>
         <view class="button-sp-area">
@@ -31,7 +31,7 @@
           <view class="divLineR"></view>
         </view>
         <view class="button-sp-area">
-          <button class="but-login wxlogin" hover-class="button-hover" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+          <button class="but-login wxlogin" hover-class="button-hover" bindtap="getUserProfile">
             <view class="but_text">使用微信账号登录 </view>
           </button>
         </view>
