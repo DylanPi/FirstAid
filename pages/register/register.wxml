@@ -30,7 +30,7 @@
             placeholder-style=" text-align: center ;color: #ffffff" bindinput="inputPw1Reg"/>
           </view>
           <view class="button-sp-area">
-          <button class="but-regist regist" hover-class="button-hover">
+          <button class="but-regist regist" hover-class="button-hover" bindtap="getUserProfile">
             <view class="but_text">注册 </view>
           </button>
         </view>

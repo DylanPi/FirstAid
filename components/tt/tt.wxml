@@ -1,12 +1,12 @@
 <!--compoments/tt/tt.wxml-->
 <image class="btn" bindtap="popup" data-position="right"
-  src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6Xlmi1QztaSblMvh1BugNdrvD.LeOPhPtCdeUxHjDKrwc6DEYgTO33363kJzDDyxVNzm8!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+  src="{{avatar}}">
 </image>
 <page-container show="{{show}}" overlay="true" duration="300" position="right" z-index="9999"
   customStyle="width:40%;margin-left:60%" close-on-slide-down="true" bindenter="onEnter">
   <navigator url="../../pages/basicInfo/basicInfo" class="img_box">
     <image class="image__"
-      src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6Xlmi1QztaSblMvh1BugNdrvD.LeOPhPtCdeUxHjDKrwc6DKz29*70hZq0BhLye8yMoKw!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+      src="{{avatar}}">
     </image>
     <view class="text_">{{userName}}</view>
   </navigator>

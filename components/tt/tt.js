@@ -4,7 +4,14 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    avatar:{
+      type: String,
+      value:"内容"
+    },
+    userName:{
+      type: String,
+      value:"李鹏海"
+    },
   },
 
   /**
@@ -18,7 +25,6 @@ Component({
     overlay: true,
     customStyle: '',
     overlayStyle: '',
-    userName:'李鹏海'
   },
 
   /**
