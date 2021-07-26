@@ -28,10 +28,10 @@ Page({
     this.popup.showPopup();
   },
 
-  success(){
+  agreed(){
     this.popup.hidePopup();
   },
-  cancel(){
+  canceled(){
     this.popup.hidePopup();
   },
 

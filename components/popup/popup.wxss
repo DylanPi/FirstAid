@@ -1,5 +1,6 @@
 /* components/popup.wxss */
 .wx-popup {
+  z-index: 999;
   position: absolute;
   left: 0;
   top: 0;
@@ -36,7 +37,16 @@
   justify-content: space-around;
   margin-bottom: 40rpx;
 }
-.wx-popup-btn text {
+.btn-ok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280rpx;
+  height: 88rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 88rpx;
+}
+.btn-nok {
   display: flex;
   align-items: center;
   justify-content: center;

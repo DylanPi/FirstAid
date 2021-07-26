@@ -1,12 +1,15 @@
 // pages/IDinfor/IDinfor.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    username: "李鹏海",
-    ifRealName: true,
+    isAidMan:false,
+    avatar: "",
+    username: "",
+    ifRealName: false,
     info_list: [{
         id: 0,
         name: "学习时数",
@@ -65,11 +68,24 @@ Page({
       },
     ],
   },
+/**
+ * 出现弹窗
+ */
+  showPopup(){
+    this.popup.showPopup();
+  },
+
+  bindCard(){
+    this.popup.hidePopup();
+  },
+  canceled(){
+    this.popup.hidePopup();
+  },
 
   /**
    * 头部点击响应
    */
-  click_head(e){
+  click_head(e) {
     wx.navigateTo({
       url: '../basicInfo/basicInfo',
     })
@@ -77,13 +93,20 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {},
+  onLoad: function (options) {
+    this.setData({
+      isAidMan: app.globalData.user.attributes.isAidMan,
+      avatar: app.globalData.user.attributes.avatarUrl,
+      username: app.globalData.user.attributes.nickName,
+      ifRealName: app.globalData.user.attributes.isRealman,
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.popup = this.selectComponent("#popup")
   },
 
   /**

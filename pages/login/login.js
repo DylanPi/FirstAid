@@ -1,17 +1,19 @@
 // pages/login/login.js
-
-
 const AV = require('../../libs/av-core-min.js');
-const avweapp = require('../../libs/av-weapp-min');
+// const avweapp = require('../../libs/av-weapp-min');
 const app = getApp();
 wx.cloud.init()
+// avweapp.initialize({
+//   appId: 'zzuXKNMpzK0r6Ka12gP08fx5-gzGzoHsz',
+//   appKey: 'cAG7rlcNIYbXkhGvTyIyt0er',
+//   serverURLs: "https://zzuxknmp.lc-cn-n1-shared.com",
+// })
 
 Page({
   /**
    * 页面的初始数据
    */
   data: {
-    completeRegist: false,
     com_reg: "",
     username: "",
     password: "",
@@ -98,7 +100,7 @@ Page({
         b: 2,
       },
       success: function (res) {
-        console.log("done")
+        // console.log("done")
       },
       fail: console.error
     })
@@ -107,35 +109,35 @@ Page({
    * 使用微信账号登录
    */
   getUserProfile(e) {
-    avweapp.User.loginWithMiniApp().then(user => {
-      this.data.user = user;
-    }).catch(console.error);
-
+    // avweapp.User.loginWithMiniApp().then(user => {
+    //   console.log(user);
+    // }).catch(console.error);
     wx.getUserProfile({
       desc: '展示用户信息', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，
       success: (res) => {
         // console.log(res)
         this.setData({
           userInfo: res.userInfo,
-          hasUserInfo: true
+          hasUserInfo: true,
         })
+        const Currentuser = AV.User.current()
+        Currentuser.set(res.userInfo).save()
       },
-      complete: (res) => {
-        wx.showToast({
-          title: '登录成功',
-          icon: 'success',
-        })
+      complete:(res)=>{
+        console.log(app.globalData.userInfo)
       }
     })
-    const user = avweapp.User.current()
-    user.set(this.data.userInfo).save()
+
+    // avweapp.initialize()
+    // const Currentuser = avweapp.User.current()
+    // Currentuser.set(this.data.userInfo).save()
+    
     // console.log(this.data.userInfo)
-    console.log(user)
-    setTimeout(function (avatarurl = user) {
-      wx.navigateTo({
-        url: '../main/main' + '?avatar=' + avatarurl,
-      })
-    }, 500)
+    // setTimeout(function (avatarurl = Currentuser.attributes.avatarUrl) {
+    //   wx.navigateTo({
+    //     url: '../main/main' + '?avatar=' + avatarurl,
+    //   })
+    // }, 500)
   },
 
   /**
@@ -163,6 +165,8 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    getApp().globalData.userInfo = this.data.userInfo
+    getApp().globalData.loginStatus = true
+    // console.log(app.globalData.userInfo)
   },
 })

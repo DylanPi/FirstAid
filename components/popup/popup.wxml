@@ -4,7 +4,7 @@
     <view class="wx-popup-title">{{title}}</view>
     <view class="wx-popup-con">{{content}}</view>
     <view class="wx-popup-btn">
-      <navigator url="/pages/_hujiu/_hujiu">
+      <navigator url="{{btn_ok_url}}">
         <text class="btn-ok" bindtap="_success">
           {{btn_ok}}
         </text>
