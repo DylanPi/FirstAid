@@ -1,15 +1,16 @@
 /* pages/main/main.wxss */
-.image{
-  box-sizing: border-box;
-  margin-top: 25%;
-  margin-left: 36%;
-  width: 300rpx;
-  height: 240rpx;
+.mainspace{
+  height: 200rpx;
 }
-.image{
+.main_cell_image{
   box-sizing: border-box;
-  margin-top: 20%;
-  margin-left: 28%;
-  width: 330rpx;
-  height:260rpx;
+  width: 546rpx;
+  height:330rpx;
+}
+.maincell{
+  text-align: center;
+}
+.main_cell_nav{
+  margin: 0 auto;
+  width: 73%;
 }

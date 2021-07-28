@@ -123,15 +123,24 @@ Page({
         const Currentuser = AV.User.current()
         Currentuser.set(res.userInfo).save()
       },
-      complete:(res)=>{
-        console.log(app.globalData.userInfo)
+      complete: (res) => {
+        // console.log(app.globalData.userInfo)
+        wx.showToast({
+          title: '登录成功',
+          icon: "success"
+        })
+        setTimeout(function () {
+          wx.navigateTo({
+            url: '../main/main',
+          })
+        },500)
       }
     })
 
     // avweapp.initialize()
     // const Currentuser = avweapp.User.current()
     // Currentuser.set(this.data.userInfo).save()
-    
+
     // console.log(this.data.userInfo)
     // setTimeout(function (avatarurl = Currentuser.attributes.avatarUrl) {
     //   wx.navigateTo({

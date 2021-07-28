@@ -28,13 +28,6 @@
   height: 250rpx;
 }
 
-.pictext1{
-  margin-top: 15%;
-  margin-left: 12%;
-  width: 235rpx;
-  height: 250rpx;
-}
-
 .text{
   text-align: center;
   font-size: 30rpx;
@@ -56,7 +49,21 @@
   height: 235rpx;
 }
 
-.tiankong{
+.random{
   width: 235rpx;
   height: 235rpx;
+}
+
+.quiz{
+  width: 235rpx;
+  height: 235rpx;
+}
+
+.text1{
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30rpx;
+  letter-spacing: 1rpx;
+  color: rgb(73, 70, 70);
 }

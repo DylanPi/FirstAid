@@ -1,6 +1,6 @@
 .container_{
   position: fixed;
-  top:70%;
+  top:80%;
   text-align: center;
   width:100%;  
  

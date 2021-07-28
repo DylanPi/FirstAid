@@ -53,7 +53,7 @@
   </view> -->
 
   <view class="tt_cell">
-    <navigator url="../../pages/statement/statement">
+    <navigator url="../../pages/_statement/_statement">
       <image class="image_"
         src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6XlmhhJ9ewvti6uKdSL2ZiVPOXXVc*MoxNNSAfy8owyTfc6Z.BuiPiFkpjw9MkqoXd2NU!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
       </image>

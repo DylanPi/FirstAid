@@ -2,7 +2,7 @@
 page {
   height: 100%;
   padding: 0;
-  background: -webkit-linear-gradient(top left, rgb(249,181,156), rgb(239,120,145), rgb(239,120,145));
+  background: -webkit-linear-gradient(top left, rgb(249, 181, 156), rgb(239, 120, 145), rgb(239, 120, 145));
 }
 
 .contain {
@@ -12,7 +12,7 @@ page {
 
 .card {
   width: 100%;
-  background: -webkit-linear-gradient(top left, rgb(250,208,203), rgb(252,208,227), rgb(255,209,247));
+  background: -webkit-linear-gradient(top left, rgb(250, 208, 203), rgb(252, 208, 227), rgb(255, 209, 247));
   margin: 50rpx auto;
   border-radius: 25rpx;
 }
@@ -25,8 +25,8 @@ page {
 .redcross {
   display: inline-block;
   width: 70rpx;
-  margin-top: 10rpx ;
-  margin-left:  10rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
 }
 
 .redcross_img {
@@ -42,7 +42,7 @@ page {
 
 .headTextCh {
   font-size: 30rpx;
-  font-style:inherit;
+  font-style: inherit;
   font-family: "SimSun";
 }
 
@@ -51,69 +51,74 @@ page {
   font-size: 18rpx;
 }
 
-.cardBody{
+.cardBody {
   width: 100%;
   padding-bottom: 10rpx;
 }
 
-.photo{
+.photo {
   display: inline-block;
   margin: auto 25rpx;
 }
-.photo image{
- width:220rpx;
- height:220rpx;
+
+.photo image {
+  width: 220rpx;
+  height: 220rpx;
 }
 
-.info{
-  width:380rpx;
+.info {
+  width: 380rpx;
   display: inline-block;
-margin-left: 27rpx;
+  margin-left: 20rpx;
 }
 
 .infocell {
   display: flex;
 }
-.userName{
-  width:500rpx;
+
+.userName {
+  width: 500rpx;
 }
 
-.infoitemname .infovalue{
+.infoitemname .infovalue {
   display: inline-block;
   width: 250rpx;
 
 }
 
-.infovalue{
+.infovalue {
   margin-left: 20rpx;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 25rpx
 }
 
-.info_ch{
+.info_ch {
   font-size: 25rpx;
   font-weight: 100;
 }
-.info_en{
+
+.info_en {
   font-size: 16rpx;
 }
 
-.text{
+.text {
   width: 90%;
-  background-color: rgb(254,246,245);
+  background-color: rgb(254, 246, 245);
   border-radius: 25rpx;
   padding: 20rpx 35rpx;
   font-weight: 200;
 }
-.textTitle{
+
+.textTitle {
   font-size: 35rpx;
   text-align: center;
   margin-bottom: 20rpx;
 }
-.textbody{
+
+.textbody {
   font-size: 25rpx;
 }
 
-.textbodyitem{
+.textbodyitem {
   margin: 25rpx auto;
 }

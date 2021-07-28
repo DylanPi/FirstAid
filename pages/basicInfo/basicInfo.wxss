@@ -56,3 +56,8 @@
   width: 30%;
   height: 100rpx;
 }
+
+.editBasic{
+  background-color: rgb(38, 107, 236);
+  border-radius: 100rpx;
+}

@@ -9,6 +9,15 @@ Page({
 
   },
 
+
+  /**
+   * 跳转到微信小程序
+   */
+  turnToMini:function (e) {
+    wx.navigateToMiniProgram({
+      appId: 'wxf7a9e495fdca17c3',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

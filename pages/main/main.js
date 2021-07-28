@@ -7,6 +7,7 @@ Page({
    */
   data: {
     avatar:"",
+    username:""
   },
 
   /**
@@ -16,6 +17,7 @@ Page({
     // console.log(app.globalData.user.attributes.avatarUrl)
     this.setData({
       avatar: app.globalData.user.attributes.avatarUrl,
+      username: app.globalData.user.attributes.nickName,
     })
   },
 

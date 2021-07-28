@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
+    stateList: [{
+        name: "关于我们"
+      },
+      {
+        name: "免责声明"
+      }
+    ],
+  },
 
+  /**
+   * 展示
+   */
+  showDetails:function (e) {
+    var Turnto;
+    Turnto = e.target.dataset.itemname;
+
+    wx.navigateTo({
+      url: '../_statementTo/_statementTo?' + 'stateName=' + Turnto,
+
+    });
   },
 
   /**
