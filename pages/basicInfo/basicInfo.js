@@ -74,7 +74,7 @@ Page({
       {
         id: 12,
         name: "政治面貌",
-        value: "中共党员"
+        value: "共青团员"
       },
     ],
     realInfoList: [{
@@ -102,7 +102,7 @@ Page({
   onLoad: function (options) {
     console.log(app.globalData.user)
     this.setData({
-      'isReal.status':app.globalData.user.attributes.isRealman,
+      // 'isReal.status':app.globalData.user.attributes.isRealman,
       'basicInfoList[0].value' : app.globalData.user.attributes.avatarUrl,
       'basicInfoList[1].value' : app.globalData.user.attributes.username,
       'basicInfoList[2].value' : app.globalData.user.attributes.nickName,

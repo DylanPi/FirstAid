@@ -1,4 +1,4 @@
-// pages/__tiankong/__tiankong.js
+// pages/__random/__random.js
 Page({
 
   /**

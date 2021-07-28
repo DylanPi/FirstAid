@@ -13,8 +13,14 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/__yijian120/__yijian120",
-          "pathName": "pages/__yijian120/__yijian120",
+          "name": "pages/_card/_card",
+          "pathName": "pages/_card/_card",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/study/study",
+          "pathName": "pages/study/study",
           "query": "",
           "scene": null
         }

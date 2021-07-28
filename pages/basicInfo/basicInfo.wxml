@@ -9,6 +9,7 @@
       <view class="divLine"></view>
     </view>
   </block>
+  <button class="editBasic">编辑</button>
   <view class="mark">
     <view wx:if="{{isReal.status}}">
       <image class="mark_img" src="{{isReal.imgT}}" mode="aspectFit"> </image>
